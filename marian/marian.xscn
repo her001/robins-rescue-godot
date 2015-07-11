@@ -614,7 +614,7 @@
 			<string> "node_count" </string>
 			<int> 3 </int>
 			<string> "nodes" </string>
-			<int_array  len="115"> 				-1, -1, 1, 0, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 0, 0, 0, 13, 13, -1, 16, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 14, 9, 15, 10, 16, 11, 17, 11, 18, 11, 19, 12, 0, 0, 0, 20, 20, -1, 20, 2, 0, 21, 3, 22, 5, 23, 13, 24, 14, 25, 15, 26, 16, 27, 17, 28, 18, 29, 19, 30, 20, 31, 21, 32, 22, 33, 23, 34, 24, 35, 25, 36, 1, 37, 2, 38, 26, 39, 27, 0 </int_array>
+			<int_array  len="115"> 				-1, -1, 1, 0, -1, 11, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 8, 0, 0, 0, 13, 13, -1, 16, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 14, 9, 15, 10, 16, 1, 17, 11, 18, 11, 19, 12, 0, 0, 0, 20, 20, -1, 20, 2, 0, 21, 3, 22, 5, 23, 13, 24, 14, 25, 15, 26, 16, 27, 17, 28, 18, 29, 19, 30, 20, 31, 21, 32, 22, 33, 23, 34, 24, 35, 25, 36, 1, 37, 2, 38, 26, 39, 27, 0 </int_array>
 			<string> "variants" </string>
 			<array  len="28" shared="false">
 				<node_path> "" </node_path>
@@ -633,7 +633,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -832, -246.113 </vector2>
+							<vector2> -776.871, -565.164 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -653,7 +653,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.487675 </real>
+							<real> 0.66342 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
