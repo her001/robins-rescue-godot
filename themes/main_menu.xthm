@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="Theme" subresource_count="7" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
+	<ext_resource path="res://themes/styleboxempty.xsbx" type="StyleBox"></ext_resource>
+	<ext_resource path="res://themes/styleboxempty.xsbx" type="StyleBox"></ext_resource>
+	<ext_resource path="res://themes/styleboxempty.xsbx" type="StyleBox"></ext_resource>
+	<ext_resource path="res://themes/styleboxempty.xsbx" type="StyleBox"></ext_resource>
+	<ext_resource path="res://themes/styleboxempty.xsbx" type="StyleBox"></ext_resource>
+	<ext_resource path="res://themes/fonts/medieval_sharp.fnt" type="Font"></ext_resource>
+	<main_resource>
+		<resource name="default_font" resource_type="Font" path="res://themes/fonts/medieval_sharp.fnt">  </resource>
+		<color name="Button/colors/font_color"> 0.756863, 0.745098, 0.67451, 1 </color>
+		<color name="Button/colors/font_color_disabled"> 0.756863, 0.745098, 0.67451, 1 </color>
+		<color name="Button/colors/font_color_hover"> 0.756863, 0.745098, 0.67451, 1 </color>
+		<color name="Button/colors/font_color_pressed"> 0.756863, 0.745098, 0.67451, 1 </color>
+		<resource name="Button/styles/disabled" resource_type="StyleBox" path="res://themes/styleboxempty.xsbx">  </resource>
+		<resource name="Button/styles/focus" resource_type="StyleBox" path="res://themes/styleboxempty.xsbx">  </resource>
+		<resource name="Button/styles/hover" resource_type="StyleBox" path="res://themes/styleboxempty.xsbx">  </resource>
+		<resource name="Button/styles/normal" resource_type="StyleBox" path="res://themes/styleboxempty.xsbx">  </resource>
+		<resource name="Button/styles/pressed" resource_type="StyleBox" path="res://themes/styleboxempty.xsbx">  </resource>
+		<int name="VBoxContainer/constants/separation"> 64 </int>
+
+	</main_resource>
+</resource_file>
