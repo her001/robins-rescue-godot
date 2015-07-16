@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="4" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
-	<ext_resource path="res://main_menu/menu_background.png" type="Texture"></ext_resource>
-	<ext_resource path="res://main_menu/main_menu.gd" type="Script"></ext_resource>
-	<ext_resource path="res://themes/main_menu.xthm" type="Theme"></ext_resource>
+<resource_file type="PackedScene" subresource_count="2" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
+	<ext_resource path="res://rooms/portcullis/portcullis_background.png" type="Texture"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
-			<int> 6 </int>
+			<int> 0 </int>
 			<string> "conns" </string>
-			<int_array  len="36"> 				2, 0, 47, 46, 2, 0, 3, 0, 47, 48, 2, 0, 4, 0, 47, 49, 2, 0, 5, 0, 47, 50, 2, 0, 6, 0, 47, 51, 2, 0, 7, 0, 47, 52, 2, 0 </int_array>
+			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="53">
-				<string> "Background" </string>
+			<string_array  len="23">
+				<string> "Portcullis" </string>
 				<string> "TextureFrame" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
@@ -32,56 +30,25 @@
 				<string> "texture" </string>
 				<string> "modulate" </string>
 				<string> "expand" </string>
-				<string> "script/script" </string>
 				<string> "__meta__" </string>
-				<string> "Menu" </string>
-				<string> "VBoxContainer" </string>
-				<string> "margin/left" </string>
-				<string> "margin/top" </string>
-				<string> "margin/right" </string>
-				<string> "margin/bottom" </string>
-				<string> "theme/theme" </string>
-				<string> "New" </string>
-				<string> "Button" </string>
-				<string> "disabled" </string>
-				<string> "toggle_mode" </string>
-				<string> "is_pressed" </string>
-				<string> "click_on_press" </string>
-				<string> "text" </string>
-				<string> "icon" </string>
-				<string> "flat" </string>
-				<string> "clip_text" </string>
-				<string> "align" </string>
-				<string> "Continue" </string>
-				<string> "Save" </string>
-				<string> "Load" </string>
-				<string> "About" </string>
-				<string> "Quit" </string>
-				<string> "_on_New_pressed" </string>
-				<string> "pressed" </string>
-				<string> "_on_Continue_pressed" </string>
-				<string> "_on_Save_pressed" </string>
-				<string> "_on_Load_pressed" </string>
-				<string> "_on_About_pressed" </string>
-				<string> "_on_Quit_pressed" </string>
+				<string> "room" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 8 </int>
+			<int> 1 </int>
 			<string> "nodes" </string>
-			<int_array  len="448"> 				-1, -1, 1, 0, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 4, 16, 4, 17, 2, 18, 5, 19, 6, 20, 1, 21, 7, 22, 8, 0, 0, 0, 24, 23, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 25, 9, 26, 10, 27, 9, 28, 11, 9, 0, 10, 0, 11, 0, 12, 0, 13, 12, 14, 12, 15, 4, 16, 4, 17, 2, 29, 13, 0, 1, 0, 31, 30, -1, 25, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 27, 14, 28, 15, 9, 0, 10, 0, 11, 0, 12, 0, 13, 12, 14, 1, 15, 4, 16, 4, 17, 2, 32, 12, 33, 12, 34, 12, 35, 12, 36, 16, 37, 17, 38, 12, 39, 12, 40, 3, 0, 1, 0, 31, 41, -1, 25, 2, 0, 3, 12, 4, 2, 5, 2, 6, 3, 27, 14, 28, 15, 9, 0, 10, 0, 11, 0, 12, 0, 13, 12, 14, 1, 15, 4, 16, 4, 17, 2, 32, 12, 33, 12, 34, 12, 35, 12, 36, 18, 37, 17, 38, 12, 39, 12, 40, 3, 0, 1, 0, 31, 42, -1, 26, 2, 0, 3, 12, 4, 2, 5, 2, 6, 3, 26, 19, 27, 14, 28, 20, 9, 0, 10, 0, 11, 0, 12, 0, 13, 12, 14, 1, 15, 4, 16, 4, 17, 2, 32, 12, 33, 12, 34, 12, 35, 12, 36, 21, 37, 17, 38, 12, 39, 12, 40, 3, 0, 1, 0, 31, 43, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 26, 19, 27, 14, 28, 20, 9, 0, 10, 0, 11, 0, 12, 0, 13, 12, 14, 1, 15, 4, 16, 4, 17, 2, 32, 12, 33, 12, 34, 12, 35, 12, 36, 22, 37, 17, 38, 12, 39, 12, 40, 3, 0, 1, 0, 31, 44, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 26, 23, 27, 14, 28, 24, 9, 0, 10, 0, 11, 0, 12, 0, 13, 12, 14, 1, 15, 4, 16, 4, 17, 2, 32, 12, 33, 12, 34, 12, 35, 12, 36, 25, 37, 17, 38, 12, 39, 12, 40, 3, 0, 1, 0, 31, 45, -1, 26, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 26, 26, 27, 14, 28, 27, 9, 0, 10, 0, 11, 0, 12, 0, 13, 12, 14, 1, 15, 4, 16, 4, 17, 2, 32, 12, 33, 12, 34, 12, 35, 12, 36, 28, 37, 17, 38, 12, 39, 12, 40, 3, 0 </int_array>
+			<int_array  len="48"> 				-1, -1, 1, 0, -1, 20, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 4, 16, 4, 17, 2, 18, 5, 19, 6, 20, 1, 21, 7, 1, 22 </int_array>
 			<string> "variants" </string>
-			<array  len="29" shared="false">
+			<array  len="8" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
 				<int> 1 </int>
 				<int> 2 </int>
-				<resource  resource_type="Texture" path="res://main_menu/menu_background.png">  </resource>
+				<resource  resource_type="Texture" path="res://rooms/portcullis/portcullis_background.png">  </resource>
 				<color> 1, 1, 1, 1 </color>
-				<resource  resource_type="Script" path="res://main_menu/main_menu.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
@@ -210,25 +177,6 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<real> 697 </real>
-				<real> 448 </real>
-				<real> 190 </real>
-				<bool> False </bool>
-				<resource  resource_type="Theme" path="res://themes/main_menu.xthm">  </resource>
-				<real> 526 </real>
-				<real> 36 </real>
-				<string> "New Game" </string>
-				<resource name=""></resource>				<string> "Continue" </string>
-				<real> 100 </real>
-				<real> 136 </real>
-				<string> "Save Game" </string>
-				<string> "Load Game" </string>
-				<real> 200 </real>
-				<real> 236 </real>
-				<string> "About/How To Play" </string>
-				<real> 300 </real>
-				<real> 336 </real>
-				<string> "Quit" </string>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
