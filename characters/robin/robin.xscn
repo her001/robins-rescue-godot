@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="15" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
-	<ext_resource path="res://robin/sprites/robin_squat.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_standing.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_talk_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_talk_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_talk_03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_talk_04.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_walk_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_walk_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_walk_03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_walk_04.png" type="Texture"></ext_resource>
-	<ext_resource path="res://robin/sprites/robin_yay.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_squat.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_standing.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_talk_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_talk_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_talk_03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_talk_04.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_walk_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_walk_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_walk_03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_walk_04.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/robin/sprites/robin_yay.png" type="Texture"></ext_resource>
 	<resource type="SpriteFrames" path="local://1">
 		<array name="frames" len="11" shared="false">
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_squat.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_standing.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_talk_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_talk_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_talk_03.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_talk_04.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_walk_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_walk_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_walk_03.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_walk_04.png">  </resource>
-			<resource  resource_type="Texture" path="res://robin/sprites/robin_yay.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_squat.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_standing.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_talk_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_talk_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_talk_03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_talk_04.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_walk_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_walk_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_walk_03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_walk_04.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/robin/sprites/robin_yay.png">  </resource>
 		</array>
 
 	</resource>

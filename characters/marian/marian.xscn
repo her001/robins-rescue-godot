@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="53" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
-	<ext_resource path="res://marian/sprites/marian_grab_back_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_back_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_back_03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_back_04.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_back_05.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_side_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_side_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_side_03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_side_04.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_grab_side_05.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_swing_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_swing_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_talk_back_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_talk_back_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_talk_front_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_talk_front_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_talk_side_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_talk_side_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk side_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk side_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk side_03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk_back_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk_back_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk_back_03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk_front_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk_front_02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/marian_walk_front_03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing02.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing03.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing04.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing05.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing06.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing07.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing08.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing09.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing10.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing11.png" type="Texture"></ext_resource>
-	<ext_resource path="res://marian/sprites/swing12.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_back_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_back_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_back_03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_back_04.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_back_05.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_side_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_side_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_side_03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_side_04.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_grab_side_05.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_swing_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_swing_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_talk_back_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_talk_back_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_talk_front_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_talk_front_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_talk_side_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_talk_side_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk side_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk side_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk side_03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk_back_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk_back_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk_back_03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk_front_01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk_front_02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/marian_walk_front_03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing01.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing02.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing03.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing04.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing05.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing06.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing07.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing08.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing09.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing10.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing11.png" type="Texture"></ext_resource>
+	<ext_resource path="res://characters/marian/sprites/swing12.png" type="Texture"></ext_resource>
 	<resource type="SpriteFrames" path="local://1">
 		<array name="frames" len="39" shared="false">
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_back_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_back_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_back_03.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_back_04.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_back_05.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_side_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_side_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_side_03.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_side_04.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_grab_side_05.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_swing_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_swing_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_talk_back_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_talk_back_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_talk_front_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_talk_front_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_talk_side_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_talk_side_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk side_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk side_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk side_03.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk_back_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk_back_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk_back_03.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk_front_01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk_front_02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/marian_walk_front_03.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing01.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing02.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing03.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing04.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing05.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing06.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing07.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing08.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing09.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing10.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing11.png">  </resource>
-			<resource  resource_type="Texture" path="res://marian/sprites/swing12.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_back_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_back_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_back_03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_back_04.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_back_05.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_side_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_side_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_side_03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_side_04.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_grab_side_05.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_swing_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_swing_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_talk_back_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_talk_back_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_talk_front_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_talk_front_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_talk_side_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_talk_side_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk side_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk side_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk side_03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk_back_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk_back_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk_back_03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk_front_01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk_front_02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/marian_walk_front_03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing01.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing02.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing03.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing04.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing05.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing06.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing07.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing08.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing09.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing10.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing11.png">  </resource>
+			<resource  resource_type="Texture" path="res://characters/marian/sprites/swing12.png">  </resource>
 		</array>
 
 	</resource>
