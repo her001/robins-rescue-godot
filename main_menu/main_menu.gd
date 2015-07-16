@@ -8,6 +8,8 @@ func _ready():
 		get_node("./Menu/New").hide()
 		get_node("./Menu/Continue").show()
 		get_node("./Menu/Save").show()
+	else:
+		preload("res://characters/marian/marian.xscn")
 
 func _on_New_pressed():
 	get_node("/root/Music").fade_toggle()
