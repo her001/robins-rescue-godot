@@ -5,9 +5,9 @@ func _ready():
 	if get_node("..").is_in_group("room"):
 		# Is a pause menu
 		hide()
-		get_node("Menu/New").hide()
-		get_node("Menu/Continu").show()
-		get_node("Menu/Save").show()
+		get_node("./Menu/New").hide()
+		get_node("./Menu/Continue").show()
+		get_node("./Menu/Save").show()
 
 func _on_New_pressed():
 	get_node("/root/Music").fade_toggle()
