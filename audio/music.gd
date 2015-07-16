@@ -22,9 +22,6 @@ func fade_to(new_track):
 	get_child(0).play("fade to")
 	fade_to_music = new_track
 
-func fade_out():
-	get_child(0).play("fade out")
-
 func switch_to(new_track):
 	set_stream( load(new_track) )
 	set_volume(1)
