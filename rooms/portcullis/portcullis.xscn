@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="2" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
+<resource_file type="PackedScene" subresource_count="3" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
 	<ext_resource path="res://rooms/portcullis/portcullis_background.png" type="Texture"></ext_resource>
+	<resource type="NavigationPolygon" path="local://1">
+		<vector2_array name="vertices" len="14"> 			1831.27, -162.278, 1919.98, -177.641, 1920, -0.00109863, 0.00127378, 0.000854492, 1708.08, -163.467, 1091.83, -202.451, 1589.4, -202.233, 116.053, -161.038, 260.025, -177.862, 0.0850906, -177.302, 332.173, -203.745, 827.503, -203.098, 1044.92, -325.393, 874.092, -325.393 </vector2_array>
+		<array name="polygons" len="6" shared="false">
+			<int_array  len="3"> 				0, 1, 2 </int_array>
+			<int_array  len="4"> 				0, 2, 3, 4 </int_array>
+			<int_array  len="6"> 				5, 6, 4, 3, 7, 8 </int_array>
+			<int_array  len="3"> 				3, 9, 7 </int_array>
+			<int_array  len="4"> 				5, 8, 10, 11 </int_array>
+			<int_array  len="4"> 				12, 5, 11, 13 </int_array>
+		</array>
+		<array name="outlines" len="1" shared="false">
+			<vector2_array  len="14"> 				0.00127378, 0.000854492, 0.0850906, -177.302, 116.053, -161.038, 260.025, -177.862, 332.173, -203.745, 827.503, -203.098, 874.092, -325.393, 1044.92, -325.393, 1091.83, -202.451, 1589.4, -202.233, 1708.08, -163.467, 1831.27, -162.278, 1919.98, -177.641, 1920, -0.00109863 </vector2_array>
+		</array>
+
+	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
@@ -8,7 +23,7 @@
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="23">
+			<string_array  len="34">
 				<string> "Portcullis" </string>
 				<string> "TextureFrame" </string>
 				<string> "_import_path" </string>
@@ -32,13 +47,24 @@
 				<string> "expand" </string>
 				<string> "__meta__" </string>
 				<string> "room" </string>
+				<string> "nav" </string>
+				<string> "Navigation2D" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
+				<string> "polygon" </string>
+				<string> "NavigationPolygonInstance" </string>
+				<string> "navpoly" </string>
+				<string> "enabled" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 1 </int>
+			<int> 3 </int>
 			<string> "nodes" </string>
-			<int_array  len="48"> 				-1, -1, 1, 0, -1, 20, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 4, 16, 4, 17, 2, 18, 5, 19, 6, 20, 1, 21, 7, 1, 22 </int_array>
+			<int_array  len="106"> 				-1, -1, 1, 0, -1, 20, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 4, 16, 4, 17, 2, 18, 5, 19, 6, 20, 1, 21, 7, 1, 22, 0, 0, 24, 23, -1, 10, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 25, 8, 26, 9, 27, 10, 28, 11, 29, 1, 0, 1, 0, 31, 30, -1, 12, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 25, 12, 26, 9, 27, 10, 28, 11, 29, 1, 32, 13, 33, 1, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="8" shared="false">
+			<array  len="14" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -54,7 +80,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -100.615, -61.5207 </vector2>
+							<vector2> -260.796, -195.904 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -74,7 +100,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.66342 </real>
+							<real> 0.598737 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -177,6 +203,12 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
+				<vector2> 0, 1080 </vector2>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
+				<int> 0 </int>
+				<vector2> 0, 0 </vector2>
+				<resource  resource_type="NavigationPolygon" path="local://1">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
