@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="CanvasItemShaderGraph" subresource_count="1" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
+	<main_resource>
+		<dictionary name="_code" shared="false">
+			<string> "fragment" </string>
+			<string> "vec3 nd1sl2=vec3(UV,0);&#000a;vec4 rt_default_tex3=tex(TEXTURE,nd1sl2.xy);&#000a;vec3 nd3sl0=rt_default_tex3.rgb;&#000a;float nd3sl1=rt_default_tex3.a;&#000a;uniform texture Mask;vec4 rt_read_tex2=tex(Mask,nd1sl2.xy);&#000a;vec3 nd2sl0=rt_read_tex2.rgb;&#000a;float nd2sl1=rt_read_tex2.a;&#000a;float nd4sl0=nd2sl0.x;&#000a;float nd4sl1=nd2sl0.y;&#000a;float nd4sl2=nd2sl0.z;&#000a;uniform float mask_white_bool=1;&#000a;float nd8sl0=mask_white_bool;&#000a;float nd5sl0=nd4sl0-nd8sl0;&#000a;float nd6sl0=nd8sl0-nd4sl0;&#000a;float nd9sl0=max(nd5sl0,nd6sl0);&#000a;float nd7sl0=nd3sl1*nd9sl0;&#000a;COLOR.rgb=nd3sl0;&#000a;COLOR.a=nd7sl0;&#000a;" </string>
+			<string> "fragment_ofs" </string>
+			<int> 0 </int>
+			<string> "light" </string>
+			<string> "" </string>
+			<string> "light_ofs" </string>
+			<int> 0 </int>
+			<string> "vertex" </string>
+			<string> "" </string>
+			<string> "vertex_ofs" </string>
+			<int> 0 </int>
+		</dictionary>
+		<dictionary name="_data" shared="false">
+			<string> "shaders" </string>
+			<array  len="3" shared="false">
+				<array  len="6" shared="false">
+					<int> 0 </int>
+					<int> 33 </int>
+					<vector2> 243, 30 </vector2>
+					<nil>  </nil>
+					<nil>  </nil>
+					<array  len="0" shared="false">
+					</array>
+				</array>
+				<array  len="66" shared="false">
+					<int> 0 </int>
+					<int> 33 </int>
+					<vector2> 1141, -109 </vector2>
+					<nil>  </nil>
+					<nil>  </nil>
+					<array  len="6" shared="false">
+						<int> 0 </int>
+						<int> 3 </int>
+						<int> 0 </int>
+						<int> 1 </int>
+						<int> 7 </int>
+						<int> 0 </int>
+					</array>
+					<int> 1 </int>
+					<int> 0 </int>
+					<vector2> 131, -52 </vector2>
+					<nil>  </nil>
+					<nil>  </nil>
+					<array  len="0" shared="false">
+					</array>
+					<int> 2 </int>
+					<int> 30 </int>
+					<vector2> 419, -33 </vector2>
+					<string> "Mask" </string>
+					<nil>  </nil>
+					<array  len="3" shared="false">
+						<int> 0 </int>
+						<int> 1 </int>
+						<int> 2 </int>
+					</array>
+					<int> 3 </int>
+					<int> 32 </int>
+					<vector2> 656, -151 </vector2>
+					<nil>  </nil>
+					<nil>  </nil>
+					<array  len="3" shared="false">
+						<int> 0 </int>
+						<int> 1 </int>
+						<int> 2 </int>
+					</array>
+					<int> 4 </int>
+					<int> 18 </int>
+					<vector2> 548, 68 </vector2>
+					<nil>  </nil>
+					<nil>  </nil>
+					<array  len="3" shared="false">
+						<int> 0 </int>
+						<int> 2 </int>
+						<int> 0 </int>
+					</array>
+					<int> 5 </int>
+					<int> 7 </int>
+					<vector2> 713, -77 </vector2>
+					<int> 1 </int>
+					<nil>  </nil>
+					<array  len="6" shared="false">
+						<int> 0 </int>
+						<int> 4 </int>
+						<int> 0 </int>
+						<int> 1 </int>
+						<int> 8 </int>
+						<int> 0 </int>
+					</array>
+					<int> 6 </int>
+					<int> 7 </int>
+					<vector2> 708, 35 </vector2>
+					<int> 1 </int>
+					<nil>  </nil>
+					<array  len="6" shared="false">
+						<int> 0 </int>
+						<int> 8 </int>
+						<int> 0 </int>
+						<int> 1 </int>
+						<int> 4 </int>
+						<int> 0 </int>
+					</array>
+					<int> 7 </int>
+					<int> 7 </int>
+					<vector2> 979, -70 </vector2>
+					<int> 2 </int>
+					<nil>  </nil>
+					<array  len="6" shared="false">
+						<int> 0 </int>
+						<int> 3 </int>
+						<int> 1 </int>
+						<int> 1 </int>
+						<int> 9 </int>
+						<int> 0 </int>
+					</array>
+					<int> 8 </int>
+					<int> 26 </int>
+					<vector2> 343, -153 </vector2>
+					<string> "mask_white_bool" </string>
+					<real> 1 </real>
+					<array  len="0" shared="false">
+					</array>
+					<int> 9 </int>
+					<int> 7 </int>
+					<vector2> 839, -29 </vector2>
+					<int> 6 </int>
+					<nil>  </nil>
+					<array  len="6" shared="false">
+						<int> 0 </int>
+						<int> 5 </int>
+						<int> 0 </int>
+						<int> 1 </int>
+						<int> 6 </int>
+						<int> 0 </int>
+					</array>
+					<int> 10 </int>
+					<int> 34 </int>
+					<vector2> 204, -181 </vector2>
+					<string> "mask_white&#000a;0 or 1&#000a;Toggles black&#000a;or white&#000a;masking&#000a;" </string>
+					<nil>  </nil>
+					<array  len="0" shared="false">
+					</array>
+				</array>
+				<array  len="6" shared="false">
+					<int> 0 </int>
+					<int> 33 </int>
+					<vector2> 250, 20 </vector2>
+					<nil>  </nil>
+					<nil>  </nil>
+					<array  len="0" shared="false">
+					</array>
+				</array>
+			</array>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
