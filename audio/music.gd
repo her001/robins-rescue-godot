@@ -19,10 +19,12 @@ func fade_toggle():
 		fade_to(menu_music)
 
 func fade_to(new_track):
+	get_child(0).stop_all()
 	get_child(0).play("fade to")
 	fade_to_music = new_track
 
 func switch_to(new_track):
+	get_child(0).stop_all()
 	set_stream( load(new_track) )
 	set_volume(1)
 	play()
