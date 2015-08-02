@@ -14,8 +14,6 @@ func _ready():
 		set_process_input(true)
 	else:
 		preload("res://characters/marian/marian.xscn")
-		var cursor = preload("res://helpers/cursor/cursor.xscn")
-		add_child( cursor.instance() )
 
 func _on_New_pressed():
 	get_node("/root/Music").fade_toggle()
