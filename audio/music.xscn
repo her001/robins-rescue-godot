@@ -3,7 +3,7 @@
 	<ext_resource path="res://audio/music/thatched_villagers.ogg" type="AudioStream"></ext_resource>
 	<ext_resource path="res://audio/music.gd" type="Script"></ext_resource>
 	<resource type="Animation" path="local://2">
-		<string name="resource/name"> "fade to" </string>
+		<string name="resource/name"> "fade_to" </string>
 		<real name="length"> 1.35 </real>
 		<bool name="loop"> False </bool>
 		<real name="step"> 0.15 </real>
@@ -68,7 +68,7 @@
 				<string> "playback/process_mode" </string>
 				<string> "playback/default_blend_time" </string>
 				<string> "root/root" </string>
-				<string> "anims/fade to" </string>
+				<string> "anims/fade_to" </string>
 				<string> "playback/active" </string>
 				<string> "playback/speed" </string>
 				<string> "blend_times" </string>
