@@ -36,12 +36,14 @@ func toggle_track():
 		_switch_to(menu_music)
 
 func fade_new_music(new_track):
-	_set_game_music(new_track)
+	game_music = new_track
+	game_pos = 0
 	if track == GAME_TRACK:
 		_fade_to(new_track)
 
 func switch_new_music(new_track):
-	_set_game_music(new_track)
+	game_music = new_track
+	game_pos = 0
 	if track == GAME_TRACK:
 		_switch_to(new_track)
 
@@ -54,12 +56,9 @@ func _switch_to(new_track):
 	get_child(0).stop_all()
 	set_stream( load(new_track) )
 	set_volume(1)
-	if track == GAME_TRACK:
-		seek_pos(game_pos)
 	play()
-
-func _set_game_music(track):
-	game_music = track
+	if track==GAME_TRACK && game_pos!=0:
+		seek_pos(game_pos)
 
 func _switch_faded():
 	get_child(0).stop_all()
