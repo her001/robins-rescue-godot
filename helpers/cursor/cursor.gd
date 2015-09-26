@@ -8,8 +8,7 @@ func _ready():
 	base_cursor = load("res://helpers/cursor/standard_cursor.xml")
 	is_alt_cursor = false
 	
-	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
-	set_process(true)
+	#Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 
 func set_alt_cursor(sprite_frames):
 	if not is_alt_cursor:
@@ -26,6 +25,3 @@ func hovering():
 
 func stop_hovering():
 	set_frame(0)
-
-func _process(delta):
-	set_pos( get_viewport().get_mouse_pos() )

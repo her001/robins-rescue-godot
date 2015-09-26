@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="17" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
-	<ext_resource path="res://rooms/portcullis/portcullis_background.png" type="Texture"></ext_resource>
-	<ext_resource path="res://rooms/portcullis/portcullis.png" type="Texture"></ext_resource>
-	<ext_resource path="res://rooms/mask_shader.xml" type="Shader"></ext_resource>
-	<ext_resource path="res://rooms/portcullis/portcullis_mask.png" type="Texture"></ext_resource>
-	<ext_resource path="res://rooms/portcullis/doormat_00.png" type="Texture"></ext_resource>
-	<ext_resource path="res://rooms/portcullis/doormat_01.png" type="Texture"></ext_resource>
-	<ext_resource path="res://helpers/ui.xscn" type="PackedScene"></ext_resource>
-	<ext_resource path="res://main_menu/main_menu.xscn" type="PackedScene"></ext_resource>
+<resource_file type="PackedScene" subresource_count="17" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://rooms/portcullis/portcullis.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://rooms/portcullis/doormat_01.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://rooms/portcullis/portcullis_background.png" type="Texture" index="0"></ext_resource>
+	<ext_resource path="res://rooms/mask_shader.xml" type="Shader" index="2"></ext_resource>
+	<ext_resource path="res://rooms/portcullis/portcullis_mask.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://rooms/portcullis/doormat_00.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://helpers/inventory/inventory.xscn" type="PackedScene" index="6"></ext_resource>
+	<ext_resource path="res://main_menu/main_menu.xscn" type="PackedScene" index="7"></ext_resource>
 	<resource type="NavigationPolygon" path="local://1">
 		<vector2_array name="vertices" len="14"> 			1831.27, -162.278, 1919.98, -177.641, 1920, -0.00109863, 0.00127378, 0.000854492, 1708.08, -163.467, 1091.83, -202.451, 1589.4, -202.233, 116.053, -161.038, 260.025, -177.862, 0.0850906, -177.302, 332.173, -203.745, 827.503, -203.098, 1013.98, -385.645, 894.89, -385.645 </vector2_array>
 		<array name="polygons" len="6" shared="false">
@@ -57,9 +57,9 @@
 
 	</resource>
 	<resource type="CanvasItemMaterial" path="local://6">
-		<resource name="shader/shader" resource_type="Shader" path="res://rooms/mask_shader.xml">  </resource>
+		<resource name="shader/shader" external="2">  </resource>
 		<int name="shader/shading_mode"> 0 </int>
-		<resource name="shader_param/Mask" resource_type="Texture" path="res://rooms/portcullis/portcullis_mask.png">  </resource>
+		<resource name="shader_param/Mask" external="3">  </resource>
 		<real name="shader_param/mask_white_bool"> 1 </real>
 
 	</resource>
@@ -70,8 +70,8 @@
 	</resource>
 	<resource type="SpriteFrames" path="local://4">
 		<array name="frames" len="2" shared="false">
-			<resource  resource_type="Texture" path="res://rooms/portcullis/doormat_00.png">  </resource>
-			<resource  resource_type="Texture" path="res://rooms/portcullis/doormat_01.png">  </resource>
+			<resource  external="4">  </resource>
+			<resource  external="5">  </resource>
 		</array>
 
 	</resource>
@@ -118,6 +118,7 @@
 				<string> "col" </string>
 				<string> "CollisionPolygon2D" </string>
 				<string> "build_mode" </string>
+				<string> "shape_range" </string>
 				<string> "trigger" </string>
 				<string> "sprite" </string>
 				<string> "AnimationPlayer" </string>
@@ -135,19 +136,18 @@
 				<string> "AnimatedSprite" </string>
 				<string> "frames" </string>
 				<string> "Keyhole" </string>
-				<string> "UI" </string>
-				<string> "Node" </string>
+				<string> "Inventory" </string>
+				<string> "TextureFrame" </string>
 				<string> "_import_path" </string>
 				<string> "Main Menu" </string>
-				<string> "TextureFrame" </string>
 			</string_array>
 			<string> "node_count" </string>
 			<int> 15 </int>
 			<string> "nodes" </string>
-			<int_array  len="234"> 				-1, -1, 1, 0, -1, 3, 2, 0, 3, 1, 4, 2, 1, 5, 0, 0, 7, 6, -1, 2, 8, 1, 9, 3, 0, 1, 0, 11, 10, -1, 2, 12, 4, 13, 5, 0, 0, 0, 15, 14, -1, 12, 9, 6, 16, 5, 17, 7, 18, 8, 19, 1, 20, 9, 21, 8, 22, 1, 23, 10, 24, 11, 25, 12, 26, 13, 0, 3, 0, 28, 27, -1, 3, 29, 14, 10, 15, 30, 1, 0, 3, 0, 1, 31, -1, 1, 2, 16, 0, 3, 0, 32, 32, -1, 8, 33, 17, 34, 18, 35, 19, 36, 20, 37, 5, 38, 13, 39, 21, 40, 22, 0, 0, 0, 1, 41, -1, 3, 42, 23, 2, 0, 3, 1, 0, 0, 0, 15, 43, -1, 9, 9, 24, 16, 5, 17, 25, 18, 8, 19, 1, 23, 10, 24, 11, 25, 12, 26, 13, 0, 8, 0, 28, 27, -1, 3, 29, 14, 10, 26, 30, 1, 0, 8, 0, 44, 31, -1, 1, 45, 27, 0, 0, 0, 15, 46, -1, 9, 9, 28, 16, 5, 17, 29, 18, 30, 19, 1, 23, 10, 24, 11, 25, 12, 26, 13, 0, 11, 0, 28, 27, -1, 3, 29, 14, 10, 31, 30, 1, 0, 0, 0, 48, 47, 32, 2, 49, 33, 4, 34, 0, 0, 0, 51, 50, 35, 3, 49, 33, 8, 1, 4, 36, 0 </int_array>
+			<int_array  len="240"> 				-1, -1, 1, 0, -1, 3, 2, 0, 3, 1, 4, 2, 1, 5, 0, 0, 7, 6, -1, 2, 8, 1, 9, 3, 0, 1, 0, 11, 10, -1, 2, 12, 4, 13, 5, 0, 0, 0, 15, 14, -1, 12, 9, 6, 16, 5, 17, 7, 18, 8, 19, 1, 20, 9, 21, 8, 22, 1, 23, 10, 24, 11, 25, 12, 26, 13, 0, 3, 0, 28, 27, -1, 4, 29, 14, 10, 15, 30, 16, 31, 1, 0, 3, 0, 1, 32, -1, 1, 2, 17, 0, 3, 0, 33, 33, -1, 8, 34, 18, 35, 19, 36, 20, 37, 21, 38, 5, 39, 13, 40, 22, 41, 23, 0, 0, 0, 1, 42, -1, 3, 43, 24, 2, 0, 3, 1, 0, 0, 0, 15, 44, -1, 9, 9, 25, 16, 5, 17, 26, 18, 8, 19, 1, 23, 10, 24, 11, 25, 12, 26, 13, 0, 8, 0, 28, 27, -1, 4, 29, 14, 10, 27, 30, 16, 31, 1, 0, 8, 0, 45, 32, -1, 1, 46, 28, 0, 0, 0, 15, 47, -1, 9, 9, 29, 16, 5, 17, 30, 18, 31, 19, 1, 23, 10, 24, 11, 25, 12, 26, 13, 0, 11, 0, 28, 27, -1, 4, 29, 14, 10, 32, 30, 16, 31, 1, 0, 0, 0, 49, 48, 33, 2, 50, 34, 4, 35, 0, 0, 0, 49, 51, 36, 3, 50, 34, 8, 1, 4, 37, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="37" shared="false">
-				<resource  resource_type="Texture" path="res://rooms/portcullis/portcullis_background.png">  </resource>
+			<array  len="38" shared="false">
+				<resource  external="0">  </resource>
 				<bool> False </bool>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -271,6 +271,11 @@
 							<string> "znear" </string>
 							<real> 0.1 </real>
 						</dictionary>
+						<string> "Anim" </string>
+						<dictionary  shared="false">
+							<string> "visible" </string>
+							<bool> False </bool>
+						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
 					<dictionary  shared="false">
@@ -293,7 +298,8 @@
 				<real> 1 </real>
 				<int> 0 </int>
 				<vector2_array  len="7"> 					-126.049, 152.897, 125.572, 152.421, 126.523, -55.6775, 86.0929, -123.458, 3.09131, -161.51, -87.9964, -126.788, -126.524, -57.5801 </vector2_array>
-				<resource  resource_type="Texture" path="res://rooms/portcullis/portcullis.png">  </resource>
+				<vector2> -1, -1 </vector2>
+				<resource  external="1">  </resource>
 				<int> 1 </int>
 				<real> 0 </real>
 				<node_path> ".." </node_path>
@@ -310,7 +316,7 @@
 				<resource  resource_type="Shape2D" path="local://10">  </resource>
 				<matrix32> 1, -0, 0, 1, 0, 0 </matrix32>
 				<vector2_array  len="4"> 					-15.209, -22.405, 15.5602, -22.405, 15.3854, 22.6998, -15.209, 22.6998 </vector2_array>
-				<resource  resource_type="PackedScene" path="res://helpers/ui.xscn">  </resource>
+				<resource  external="6">  </resource>
 				<node_path> "" </node_path>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
@@ -320,7 +326,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -514.789, -372.164 </vector2>
+							<vector2> -250.668, -61.3476 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -340,7 +346,7 @@
 							<string> "snap_step" </string>
 							<vector2> 10, 10 </vector2>
 							<string> "zoom" </string>
-							<real> 0.397214 </real>
+							<real> 0.54036 </real>
 						</dictionary>
 						<string> "3D" </string>
 						<dictionary  shared="false">
@@ -443,7 +449,7 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<resource  resource_type="PackedScene" path="res://main_menu/main_menu.xscn">  </resource>
+				<resource  external="7">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -574,6 +580,8 @@
 						<string> "run_mode" </string>
 						<int> 0 </int>
 					</dictionary>
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
 				</dictionary>
 			</array>
 			<string> "version" </string>
