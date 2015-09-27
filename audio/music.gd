@@ -56,9 +56,10 @@ func _switch_to(new_track):
 	get_child(0).stop_all()
 	set_stream( load(new_track) )
 	set_volume(1)
-	play()
 	if track==GAME_TRACK && game_pos!=0:
-		seek_pos(game_pos)
+		play(game_pos)
+	else:
+		play()
 
 func _switch_faded():
 	get_child(0).stop_all()
