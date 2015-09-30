@@ -25,17 +25,15 @@ func toggle_show():
 func _input(ev):
 	if ev.is_action("inventory") && ev.is_pressed() && not using_item:
 		get_tree().set_input_as_handled()
-		toggle_show()
 	elif ev.is_action("inventory") && ev.is_pressed() && using_item:
 		get_tree().set_input_as_handled()
-		get_node("../Cursor").set_base_cursor()
+		get_node("/root/cursor").set_base_cursor()
 
 func _on_Close_pressed():
 	toggle_show()
-	get_node("../Cursor").stop_hovering()
 
 func _on_button_mouse_enter():
-	get_node("../Cursor").hovering()
+	get_node("/root/cursor").hovering()
 
 func _on_button_mouse_exit():
-	get_node("../Cursor").stop_hovering()
+	get_node("/root/cursor").stop_hovering()
