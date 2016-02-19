@@ -6,8 +6,10 @@
 [ext_resource path="res://rooms/portcullis/portcullis_mask.png" type="Texture" id=4]
 [ext_resource path="res://rooms/portcullis/doormat_00.png" type="Texture" id=5]
 [ext_resource path="res://rooms/portcullis/doormat_01.png" type="Texture" id=6]
-[ext_resource path="res://helpers/inventory/inventory.xscn" type="PackedScene" id=7]
-[ext_resource path="res://main_menu/main_menu.xscn" type="PackedScene" id=8]
+[ext_resource path="res://helpers/inventory/inventory.tscn" type="PackedScene" id=7]
+[ext_resource path="res://main_menu/main_menu.tscn" type="PackedScene" id=8]
+
+
 
 [sub_resource type="NavigationPolygon" id=1]
 
