@@ -13,11 +13,11 @@ func _ready():
 		
 		set_process_input(true)
 	else:
-		preload("res://characters/marian/marian.xscn")
+		preload("res://characters/marian/marian.tscn")
 
 func _on_New_pressed():
 	get_node("/root/Music").fade_toggle()
-	get_node("/root/tree_switcher").goto_tree("res://rooms/portcullis/portcullis.xscn")
+	get_node("/root/tree_switcher").goto_tree("res://rooms/portcullis/portcullis.tscn")
 
 func _on_Continue_pressed():
 	pause_toggle()
