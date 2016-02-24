@@ -1,21 +1,17 @@
 
 extends StreamPlayer
 
-var menu_music
-var game_music
-var fade_to_music
-var track
-var game_pos
+var menu_music = "res://audio/music/thatched_villagers.ogg"
+var game_music = "res://audio/music/pippin_the_hunchback.ogg"
+var fade_to_music = ""
+var track = MENU_TRACK
+var game_pos = get_pos()
 
 const MENU_TRACK = 0
 const GAME_TRACK = 1
 
 func _ready():
-	menu_music = "res://audio/music/thatched_villagers.ogg"
-	game_music = "res://audio/music/pippin_the_hunchback.ogg"
-	fade_to_music = ""
-	track = MENU_TRACK
-	game_pos = get_pos()
+	pass
 
 func fade_toggle():
 	if track == MENU_TRACK:

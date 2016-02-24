@@ -1,20 +1,16 @@
 
 extends Node
 
-var base_cursor
-var base_cursor_hover
+onready var base_cursor = load("helpers/cursor/cursor_01.png")
+onready var base_cursor_hover = load("helpers/cursor/cursor_02.png")
 var alt_cursor
 var alt_cursor_hover
-var is_alt_cursor
-var is_hovering
+var is_alt_cursor = false
+var is_hovering = false
 
 func _ready():
-	base_cursor = load("helpers/cursor/cursor_01.png")
-	base_cursor_hover = load("helpers/cursor/cursor_02.png")
-	is_alt_cursor = false
-	is_hovering = false
-	
 	#Input.set_custom_mouse_cursor(base_cursor, Vector2(32,32))
+	pass
 
 func set_alt_cursor(cursor, hover):
 	is_alt_cursor = true

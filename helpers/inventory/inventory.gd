@@ -1,13 +1,11 @@
 
 extends TextureFrame
 
-var using_item
-var active_item
+var using_item = false
+var active_item = ""
 
 func _ready():
 	hide()
-	using_item = false
-	active_item = ""
 	
 	set_process_input(true)
 
