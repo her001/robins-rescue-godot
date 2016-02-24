@@ -23,6 +23,7 @@ func toggle_show():
 func _input(ev):
 	if ev.is_action("inventory") && ev.is_pressed() && not using_item:
 		get_tree().set_input_as_handled()
+		toggle_show()
 	elif ev.is_action("inventory") && ev.is_pressed() && using_item:
 		get_tree().set_input_as_handled()
 		get_node("/root/cursor").set_base_cursor()
