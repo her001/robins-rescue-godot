@@ -17,7 +17,7 @@ func _ready():
 
 func _on_New_pressed():
 	get_node("/root/Music").fade_toggle()
-	get_node("/root/tree_switcher").goto_tree("res://rooms/portcullis/portcullis.tscn")
+	get_tree().change_scene("res://rooms/portcullis/portcullis.tscn")
 
 func _on_Continue_pressed():
 	pause_toggle()
