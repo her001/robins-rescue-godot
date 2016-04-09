@@ -1,0 +1,19 @@
+[gd_resource type="Theme" load_steps=3 format=1]
+
+[ext_resource path="res://themes/styleboxempty.tres" type="StyleBox" id=1]
+[ext_resource path="res://themes/fonts/medieval_sharp.fnt" type="Font" id=2]
+
+[resource]
+
+default_font = ExtResource( 2 )
+Button/colors/font_color = Color( 0.756863, 0.745098, 0.67451, 1 )
+Button/colors/font_color_disabled = Color( 0.756863, 0.745098, 0.67451, 1 )
+Button/colors/font_color_hover = Color( 0.756863, 0.745098, 0.67451, 1 )
+Button/colors/font_color_pressed = Color( 0.756863, 0.745098, 0.67451, 1 )
+Button/styles/disabled = ExtResource( 1 )
+Button/styles/focus = ExtResource( 1 )
+Button/styles/hover = ExtResource( 1 )
+Button/styles/normal = ExtResource( 1 )
+Button/styles/pressed = ExtResource( 1 )
+VBoxContainer/constants/separation = 64
+

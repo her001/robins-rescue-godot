@@ -2,7 +2,7 @@
 
 [ext_resource path="res://rooms/portcullis/portcullis_background.png" type="Texture" id=1]
 [ext_resource path="res://rooms/portcullis/portcullis.png" type="Texture" id=2]
-[ext_resource path="res://rooms/mask_shader.xml" type="Shader" id=3]
+[ext_resource path="res://rooms/mask_shader.tres" type="Shader" id=3]
 [ext_resource path="res://rooms/portcullis/portcullis_mask.png" type="Texture" id=4]
 [ext_resource path="res://rooms/portcullis/doormat_00.png" type="Texture" id=5]
 [ext_resource path="res://rooms/portcullis/doormat_01.png" type="Texture" id=6]

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://helpers/inventory/iventoryBackground_01.png" type="Texture" id=1]
 [ext_resource path="res://helpers/inventory/inventory.gd" type="Script" id=2]
-[ext_resource path="res://themes/main_menu.xthm" type="Theme" id=3]
+[ext_resource path="res://themes/main_menu.tres" type="Theme" id=3]
 [ext_resource path="res://helpers/inventory/close_01.png" type="Texture" id=4]
 
 [sub_resource type="Animation" id=2]
